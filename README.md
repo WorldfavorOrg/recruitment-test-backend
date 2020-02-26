@@ -30,7 +30,7 @@ Your are asked to create and API which will take a CSV file as input and save th
 You need to create the project structure and architecture necessary to achieve this. To us, implementation design is as important as solving the assignment.
 
 ### Database
-You need to create a database with a Users table with the following columns:
+You need to create a local database with a Users table with the following columns:
 - EmployeeCode (string)
 - Name (string)
 - Department (string)
@@ -46,12 +46,12 @@ have occurred
 The data file is in CSV format and included in this repo, named `Users.csv`.
 
 ### Acceptance Criteria
-1)	User should successfully upload a CSV file.
-2)	Duplication of data should be prevented i.e each employee in Db needs to be unique Employee Number in case the data is present update operations should be performed and relevant message should be shown in reply.
-3)	API should be RESTFul and return a solid JSON structure.
+1)	An API user should successfully upload a CSV file.
+2)	Duplication of data should be prevented i.e. each employee in the database need to have a unique EmployeeCode. In case a matching user is present during import, update operations should be performed and relevant message should be shown in the response.
+3)	API should be RESTful and return a solid JSON structure.
 4)	Unit testing should be performed on all layers of application.
 5)	Integration testing needs to performed to check all use case flows.
-6)	Application should be based on principles of solid separation of concerns and should implement design patterns for database operations, API operations choice of these are up to your best knowledge.
+6)	Application should be based on principles of solid separation of concerns and should implement design patterns for database operations and API operations. Choice of these are up to your best knowledge.
 
 ### Bonus Points
 1)	Leveraging of DOI Containers
