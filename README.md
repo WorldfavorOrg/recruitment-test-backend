@@ -17,10 +17,25 @@ How to implement the different scenarios is open to the candidate unless stated 
 
 Be as true to yourself as you can, and good luck!
 
+## Technology Stack Required
+- .NET Core 3.1
+- ASP.NET Core 2.2 or above for API.
+- Entity Framework Core for Database mapping with Code First Approach.
+- SQL Server Express or MySQL as data storage.
+- NUnit for TDD.
+
 ## Assignment
 Your are asked to create and API which will take a CSV file as input and save the data into the database. Along with this you also need to create an endpoint which lets you read the saved data with various filters. 
 
 You need to create the project structure and architecture necessary to achieve this. To us, implementation design is as important as solving the assignment.
+
+### Database
+You need to create a database with a Users table with the following columns:
+- EmployeeCode (string)
+- Name (string)
+- Department (string)
+- Location (string)
+- DateOfJoining (datetime)
 
 ### API endpoints
 1)	__Import__: This endpoint will consume a file of type CSV, parse it and save the uploaded data to database and respond with a reply message i.e. if succeded response will be 200, if errors then response will contain what error 
@@ -29,13 +44,6 @@ have occurred
 
 ### Data to import
 The data file is in CSV format and included in this repo, named `Users.csv`.
-   
-### Technology Stack Required
-- .NET Core 3.1
-- ASP.NET Core 2.2 or above for API.
-- Entity Framework Core for Database mapping with Code First Approach.
-- SQL Server Express or MySQL as data storage.
-- NUnit for TDD.
 
 ### Acceptance Criteria
 1)	User should successfully upload a CSV file.
