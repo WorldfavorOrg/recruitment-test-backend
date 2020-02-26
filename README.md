@@ -25,7 +25,7 @@ You need to create the project structure and architecture necessary to achieve t
 ### API endpoints
 1)	__Import__: This endpoint will consume a file of type CSV, parse it and save the uploaded data to database and respond with a reply message i.e. if succeded response will be 200, if errors then response will contain what error 
 have occurred
-2)	__GetWith__: Endpoint will take a request object with filters (Name, Departments etc.) and return results from database.
+2)	__GetUsers__: Endpoint will take a request object with filters (Name, Department etc.) and return results from database.
 
 ### Data to import
 The data file is in CSV format and included in this repo, named `Users.csv`.
