@@ -25,7 +25,7 @@ Be as true to yourself as you can, and good luck!
 - NUnit for TDD.
 
 ## Assignment
-Your are asked to create and API which will take a CSV file as input and save the data into the database. Along with this you also need to create an endpoint which lets you read the saved data with various filters. 
+Your are asked to create an API which will take a CSV file as input and save the data into the database. Along with this you also need to create an endpoint which lets you read the saved data with various filters. 
 
 You need to create the project structure and architecture necessary to achieve this. To us, implementation design is as important as solving the assignment.
 
