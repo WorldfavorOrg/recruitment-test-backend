@@ -27,8 +27,8 @@ You need to create the project structure and architecture necessary to achieve t
 have occurred
 2)	__GetWith__: Endpoint will take a request object with filters (Name, Departments etc.) and return results from database.
 
-Import Data
-   Import data will be in CSV format as attached in the mail , you are required to store and retrieve this data from SQL Server database.
+### Data to import
+The data file is in CSV format and is included in this repo.
    
 ### Technology Stack Required
 - .NET Core 3.1
