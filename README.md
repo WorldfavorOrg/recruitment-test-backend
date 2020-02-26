@@ -30,7 +30,7 @@ Your are asked to create and API which will take a CSV file as input and save th
 You need to create the project structure and architecture necessary to achieve this. To us, implementation design is as important as solving the assignment.
 
 ### Database
-You need to create a local database with a Users table with the following columns: EmployeeCode, Name, Department, Location, DateOfJoining. Check the content of the provided CSV file to know what datatype each column should have.
+You need to create a local database with a Users table with the following columns: EmployeeCode, Name, Department, Location and DateOfJoining. Check the content of the provided CSV file to know what datatype each column should have.
 
 ### API endpoints
 1)	__Import__: This endpoint will consume a file of type CSV, parse it and save the uploaded data to database and respond with a reply message i.e. if succeded response will be 200, if errors then response will contain what error 
