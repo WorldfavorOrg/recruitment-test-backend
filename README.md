@@ -28,7 +28,7 @@ have occurred
 2)	__GetWith__: Endpoint will take a request object with filters (Name, Departments etc.) and return results from database.
 
 ### Data to import
-The data file is in CSV format and is included in this repo.
+The data file is in CSV format and included in this repo, named `Users.csv`.
    
 ### Technology Stack Required
 - .NET Core 3.1
